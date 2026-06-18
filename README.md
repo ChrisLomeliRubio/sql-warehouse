@@ -1,4 +1,4 @@
-#SQL warehouse analytical project
+#SQL warehouse analytical project 
 
 Welcome to this SQL project. The objective of this project is to create a modern data warehouse with SQL server, featuring ETL processes, data modeling and data analytics
 ------------------------------------------------------------------------------------------------
