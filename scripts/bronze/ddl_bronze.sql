@@ -1,3 +1,5 @@
+/* This file is meant to create the whole tables of the bronze layer in the project*/
+
 --Make sure we are using DataWarehouse database
 USE DataWarehouse;
 GO
