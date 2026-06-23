@@ -15,7 +15,7 @@ how they work, but doesn't go deep in detail as much as with the gold layer
   *Gold layer tables*
 
   gold.fact_sales
-  - order_number/NVARCHAR(50)/ Stores a unique alpha-numeric number to represent the transaction
+  - order_number|NVARCHAR(50)| Stores a unique alpha-numeric number to represent the transaction
   - product_key/INT/ Creates a unique ID of the product, helping with joining data (surrogate key)
   - customer_key/INT/ Creates a unique ID of the costumers, helpful joining data (surrogate key)
   - order_date/DATE/ Stores the date when the order was placed
