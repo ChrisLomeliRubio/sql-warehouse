@@ -2,13 +2,13 @@ This file will help the user to understand the contents of the gold layer, also 
 how they work, but doesn't go deep in detail as much as with the gold layer
 
 
-- Bronze layer
+- Bronze layer:
     This layer is the first of all three, it helps creating the base of the other layers, it cointains
     data as-is from the files, it is dirty and unfiltered
-- Silver layer
+- Silver layer:
     This layers takes the data from the bronze layer and proceeds to filter and clean data, handling the nulls
     and all the bad data that we could find
-- Gold layer
+- Gold layer:
     This layer is the most friendly of the three. It contains ready to use data for analitycs and bussines partners.
     the data is filtered and can easily be used to perform aggregations.
 
