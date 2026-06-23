@@ -15,14 +15,14 @@ how they work, but doesn't go deep in detail as much as with the gold layer
   *Gold layer tables*
 
   gold.fact_sales
-  -order_number/NVARCHAR(50)/ Stores a unique alpha-numeric number to represent the transaction
-  -product_key/INT/ Creates a unique ID of the product, helping with joining data (surrogate key)
-  -customer_key/INT/ Creates a unique ID of the costumers, helpful joining data (surrogate key)
-  -order_date/DATE/ Stores the date when the order was placed
-  -ship_date/DATE/ Stores the date of when the order was shipped
-  -due_date/DATE/ Stores the due date of the order
-  -sales/INT/ Stores the total monetary value of a sale
-  -quantity/INT/ Stores the quantity of the sold product in a transaction
-  -cost/INT/ Stores the price of the product when it was sold (whole units)
+  - order_number/NVARCHAR(50)/ Stores a unique alpha-numeric number to represent the transaction
+  - product_key/INT/ Creates a unique ID of the product, helping with joining data (surrogate key)
+  - customer_key/INT/ Creates a unique ID of the costumers, helpful joining data (surrogate key)
+  - order_date/DATE/ Stores the date when the order was placed
+  - ship_date/DATE/ Stores the date of when the order was shipped
+  - due_date/DATE/ Stores the due date of the order
+  - sales/INT/ Stores the total monetary value of a sale
+  - quantity/INT/ Stores the quantity of the sold product in a transaction
+  - cost/INT/ Stores the price of the product when it was sold (whole units)
 
   gold.dim_customers
