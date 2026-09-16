@@ -3,7 +3,7 @@
 ## Overview
 This repository contains a SQL-based Data Warehouse project implementing the Medallion Architecture. The project is designed to ingest raw data from CSV files and process it through progressive layers (Bronze, Silver, and Gold) to ensure data quality, enhance engineering tracking, and enforce role-based data privacy for end users. The pipeline concludes with a comprehensive data analysis phase.
 
-## Architecture Architecture
+## Architecture
 
 This project processes data through three distinct layers:
 
@@ -26,14 +26,4 @@ This project processes data through three distinct layers:
 Upon completion of the data engineering pipeline, a comprehensive data analysis is conducted querying the secure views established in the Gold layer to extract business insights.
 
 ## Technologies Used
-*   SQL
-*   [Insert your specific SQL dialect/RDBMS here, e.g., PostgreSQL, SQL Server, Snowflake]
-
-## Repository Structure
-```text
-├── 1_bronze/         # SQL scripts for raw data ingestion from CSV
-├── 2_silver/         # SQL scripts for data cleaning and metadata generation
-├── 3_gold/           # SQL scripts for view creation and access control logic
-├── analysis/         # SQL scripts and queries used for final data analysis
-├── data/             # Directory for source CSV files
-└── README.md         # Project documentation
+*   Microsoft SQL server
